@@ -8,7 +8,7 @@ import numpy as np
 # ---------------------------------------------------------
 # LOAD IMAGE
 # ---------------------------------------------------------
-path = "input.jpg"
+path = "img.jpg"
 
 # Convert one copy to grayscale → for frequency sampling
 img_gray = Image.open(path).convert("L")
